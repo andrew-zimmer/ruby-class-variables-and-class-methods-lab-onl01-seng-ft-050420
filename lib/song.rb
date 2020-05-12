@@ -1,5 +1,6 @@
 class Song 
   @@count = 0 
+  @@artist = []
   
   def initialize 
     @@count += 1 
